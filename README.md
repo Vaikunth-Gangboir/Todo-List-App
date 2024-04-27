@@ -29,8 +29,17 @@ Todo is a straightforward yet powerful web application designed to streamline yo
 5. **Responsive Design:** Enjoy seamless usability across various devices and screen sizes.
 
 # Image: 
-![app-xl](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/0b24439c-fb40-483c-8106-f5b4bec817f6)
-![app-big](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/1caf50c3-267c-4bf8-9596-63606002f4ab)
+![App-Big-Screen](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/0b24439c-fb40-483c-8106-f5b4bec817f6)
+![App-Desktop/Laptop](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/1caf50c3-267c-4bf8-9596-63606002f4ab)
+![App-Tab](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/0c001209-d89f-4735-936b-bb72df9c9859)
+![App-Mobile](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/1e21ad29-45d2-4d52-86fe-8a5c27ec0fa1)
+![Login-Big-Screen](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/ce6ffd11-d11e-4666-a841-ff35aae34a2e)
+![Login-Mobile](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/164efb28-c362-4d9e-a2cc-76dabd82c42d)
+![Login-Tab](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/54f4137a-e019-4048-b9b5-f4123a915c01)
+![Login-Desktop/Laptop](https://github.com/Vaikunth-Gangboir/Todo-List-App/assets/161679709/551acecd-f732-4e4d-b4f7-cf7d879a1e13)
+
+
+
 
 
 
