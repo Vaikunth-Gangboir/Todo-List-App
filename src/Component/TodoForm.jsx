@@ -1,13 +1,15 @@
 import { useState } from 'react';
-//FireStore
+//Context
 import { useFirebase } from '../Contexts/FirebaseContext';
+import { useTodoList } from '../Contexts/TodoContext';
 
-function TodoForm({ getList }) {
+function TodoForm() {
   const [title, setTitle] = useState('');
   const [discription, setDiscription] = useState('');
   const { addTodos } = useFirebase();
+  const { getList } = useTodoList();
 
-  const handleAdd = async function (e) { 
+  const handleAdd = async function (e) {
     e.preventDefault();
     await addTodos({
       title,

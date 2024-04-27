@@ -1,4 +1,5 @@
-// Hooks
+// context
+import { TodoProvider } from './Contexts/TodoContext';
 
 // Component
 import Dashboard from './Pages/Dashboard';
@@ -17,7 +18,9 @@ function App() {
         path="Dashboard"
         element={
           <ProtectedRoute>
-            <Dashboard />
+            <TodoProvider>
+              <Dashboard />
+            </TodoProvider>
           </ProtectedRoute>
         }
       />

@@ -4,9 +4,12 @@ import { MdDoNotDisturb } from 'react-icons/md';
 import { TiTick } from 'react-icons/ti';
 import { MdOutlineDeleteSweep } from 'react-icons/md';
 import { useFirebase } from '../Contexts/FirebaseContext';
+import { useTodoList } from '../Contexts/TodoContext';
 
-function TodoItem({ item, getList }) {
+function TodoItem({ item }) {
   const { updateTodos } = useFirebase();
+  const { getList } = useTodoList();
+
   async function handleUpdate(action) {
     await updateTodos(item.id, { ...item, [action]: !item[action] })
       .then(() => {
@@ -44,7 +47,7 @@ function TodoItem({ item, getList }) {
           <FaHeart
             size={24}
             color="#FF0000"
-            className={` hover:fill-[#FF0000] ${item.favourite ? 'fill-[#FF0000]' : 'fill-gray-300'} cursor-pointer`}
+            className={` ${item.favourite ? 'fill-[#FF0000]' : 'fill-gray-300 lg:hover:fill-[#FF0000]'} cursor-pointer`}
             onClick={() => handleUpdate('favourite')}
           />
           {item.deleted ? (
@@ -68,4 +71,3 @@ function TodoItem({ item, getList }) {
 }
 
 export default TodoItem;
-/*#7e995d*/

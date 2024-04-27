@@ -6,10 +6,11 @@ import TodoItem from './TodoItem';
 
 //Icons
 import { IoSearch } from 'react-icons/io5';
+import { useTodoList } from '../Contexts/TodoContext';
 
-function TodoList({ list, getList }) {
+function TodoList() {
   //Hooks
-
+  const { list } = useTodoList();
   const [selected, setSelected] = useState('');
   const [query, setQuery] = useState('');
 
@@ -25,7 +26,7 @@ function TodoList({ list, getList }) {
     }
   });
 
-  // Filtered List DErived State
+  // Filtered List Derived State
   const filteredList = searchedList.filter((item) => {
     if (selected === '') {
       return item.title;
@@ -41,7 +42,7 @@ function TodoList({ list, getList }) {
   // Logout Function
 
   return (
-    <div className=" w-full p-2 lg:h-full lg:pl-12">
+    <div className=" w-full p-2 lg:h-full lg:overflow-auto lg:pl-12">
       {/* Search and Filter */}
       <form className="mb-24 flex items-center justify-between lg:mt-10">
         <div className="relative w-[35%]">
@@ -72,9 +73,9 @@ function TodoList({ list, getList }) {
       </form>
 
       {/* Todo List of Items */}
-      <ul className=" w-full lg:h-[50%] lg:overflow-auto">
+      <ul className=" w-full lg:h-[50%] ">
         {filteredList.map((item) => (
-          <TodoItem key={item.title} item={item} getList={getList} />
+          <TodoItem key={item.id} item={item} />
         ))}
       </ul>
     </div>
