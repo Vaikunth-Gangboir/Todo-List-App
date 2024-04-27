@@ -1,9 +1,28 @@
-# React + Vite
+# Todo: A Simple and Efficient Todo List Web Application
+# Overview:
+TodoListify is a straightforward yet powerful web application designed to streamline your daily tasks and boost productivity. Whether you're managing personal errands or collaborating with a team, TodoListify offers an intuitive platform to organize your todos efficiently.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+User Authentication: Register and login securely to access your personal ToDo lists.
+Create Tasks: Add tasks with titles, descriptions, due dates, and priorities.
+Manage Tasks: Mark tasks as completed, favourite, or delete them as needed.
+Filter and Sort: Easily find tasks by filtering based on completed, favourite, or deleted.
+Responsive Design: Enjoy seamless usability across various devices and screen sizes.
 
-Currently, two official plugins are available:
+# Technologies Used:
+Frontend: React.js
+Backend: Firebase
+Database: Firestore database
+Authentication: Firebase Authentication
+Libraries: React Router, Tailwind CSS, Prettier fro Tailwind, React-icons, Firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# Todo-List-App" 
+# Installation
+1) Clone the repository:
+   git clone https://github.com/Vaikunth-Gangboir/Todo-List-App.git
+
+2) Install dependencies:
+   cd Todo-List-App
+   npm install
+
+3) Start the server:
+   npm run dev
