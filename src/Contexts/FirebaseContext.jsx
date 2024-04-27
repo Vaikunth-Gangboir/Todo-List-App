@@ -26,7 +26,7 @@ const FirebaseContext = createContext(null);
 // Firebase Config
 const firebaseConfig = {
   apiKey: 'AIzaSyBb0aJ_7-bVifbnXFZnNPwii9LqL_bywXY',
-  authDomain: 'https://vaikunth-todo.netlify.app/',
+  authDomain: 'todo-app-58bdc.firebaseapp.com',
   projectId: 'todo-app-58bdc',
   storageBucket: 'todo-app-58bdc.appspot.com',
   messagingSenderId: '699322598507',
