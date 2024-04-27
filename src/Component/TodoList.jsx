@@ -72,11 +72,11 @@ function TodoList({ list, getList }) {
       </form>
 
       {/* Todo List of Items */}
-      <div className=" w-full lg:h-[55%] lg:overflow-auto">
+      <ul className=" w-full lg:h-[55%] lg:overflow-auto">
         {filteredList.map((item) => (
           <TodoItem key={item.title} item={item} getList={getList} />
         ))}
-      </div>
+      </ul>
     </div>
   );
 }
