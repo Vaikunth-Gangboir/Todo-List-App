@@ -19,7 +19,7 @@ function TodoItem({ item, getList }) {
   }
 
   return (
-    <ul className="w-full">
+    <>
       {/* Todo Items */}
       <li className="flex items-center justify-between rounded-sm border-b-[1px] border-gray-300 px-2 py-3 transition-all hover:bg-gray-200">
         <div className="w-[80%] overflow-x-hidden">
@@ -63,7 +63,7 @@ function TodoItem({ item, getList }) {
           )}
         </div>
       </li>
-    </ul>
+    </>
   );
 }
 
