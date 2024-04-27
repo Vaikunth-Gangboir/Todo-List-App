@@ -5,10 +5,10 @@ Todo is a straightforward yet powerful web application designed to streamline yo
 
 # Technologies Used:
   + **Frontend:** React.js
-  + **Backend:** Firebase
+  + **Backend:** -
   + **Database:** Firestore database
   + **Authentication:** Firebase Authentication
-  + **Libraries:** React Router, Tailwind CSS, Prettier fro Tailwind, React-icons, Firebase.
+  + **Libraries:** React Router, Tailwind CSS, Prettier for Tailwind, React-icons, Firebase.
 
 # Installation
 1) Clone the repository:
@@ -23,7 +23,7 @@ Todo is a straightforward yet powerful web application designed to streamline yo
 
 # Features
 1. **User Authentication:** Register and login securely to access your personal ToDo lists.
-2. **Create Tasks:** Add tasks with titles, descriptions, due dates, and priorities.
+2. **Create Tasks:** Add tasks with titles, descriptions.
 3. **Manage Tasks:** Mark tasks as completed, favourite, or delete them as needed.
 4. **Filter and Sort:** Easily find tasks by filtering based on completed, favourite, or deleted.
 5. **Responsive Design:** Enjoy seamless usability across various devices and screen sizes.
