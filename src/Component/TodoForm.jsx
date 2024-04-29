@@ -15,7 +15,7 @@ function TodoForm() {
       title,
       discription,
       completed: false,
-      faverite: false,
+      favourite: false,
       deleted: false,
     });
 
